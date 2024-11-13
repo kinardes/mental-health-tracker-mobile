@@ -12,6 +12,7 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
   String _mood = "";
 	String _feelings = "";
 	int _moodIntensity = 0;
+  DateTime _time = DateTime.now();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
